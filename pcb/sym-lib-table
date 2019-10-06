@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Pinky3-rescue)(type Legacy)(uri ${KIPRJMOD}/Pinky3-rescue.lib)(options "")(descr ""))
+  (lib (name Pinky2-rescue)(type Legacy)(uri ${KIPRJMOD}/Pinky2-rescue.lib)(options "")(descr ""))
+)
