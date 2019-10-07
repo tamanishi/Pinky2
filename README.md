@@ -20,7 +20,7 @@ An idea is inspired from [crkbd](https://github.com/foostan/crkbd), [Lily58](htt
 | 2 | top plate | 1 |
 | 3 | bottom plate | 1 |
 | 4 | Pro Micro | 1 |
-| 5 | Conthrough for Pro Micros | 2 |
+| 5 | Conthrough for Pro Micro | 2 |
 | 6 | 2 pins tact switch | 1 |
 | 7 | diodes (1N4148 or 1N4148W) | 10 |
 | 8 | Kailh PCB Sockets (for MX) | 8 |
