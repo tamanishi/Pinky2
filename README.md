@@ -29,8 +29,8 @@ An idea is inspired from [crkbd](https://github.com/foostan/crkbd), [Lily58](htt
 | 11 | Kailh Choc keyswitches | 2 |
 | 12 | Cherry MX compatible keycaps | 8 |
 | 13 | Kailh Choc compatible keycaps | 2 |
-| 14 | 7mm M2 standoffs (for top and bottom plates) | 3 |
-| 15 | 5mm M2 standoffs (for Pro Micro cover plates) | 2 |
+| 14 | 7mm M2 standoffs (for top and bottom plate) | 3 |
+| 15 | 5mm M2 standoffs (for Pro Micro cover plate) | 2 |
 | 16 | 4mm M2 screws | 5 |
 | 17 | rubber cushions | 4 |
 
