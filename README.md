@@ -1,6 +1,6 @@
 # Pinky2
 
-A 2 x 4 vertical ortholinear and 2 thumb keys reversible macro pad.  
+A 2 x 4 vertical ortholinear and 2 thumb keys reversible macro pad for one hand.  
 An idea is inspired from [crkbd](https://github.com/foostan/crkbd), [Lily58](https://github.com/kata0510/Lily58), [Ergo42](https://github.com/Biacco42/Ergo42) and [Helix](https://github.com/MakotoKurauchi/helix).  
 
 ## TODO: product image
