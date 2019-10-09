@@ -1,6 +1,6 @@
 # Pinky2
 
-A 2 x 4 vertical ortholinear and 2 thumb keys reversible macro pad for one hand.  
+A 2 x 5 vertical ortholinear and 3 thumb keys reversible macro pad for one hand.  
 An idea is inspired from [crkbd](https://github.com/foostan/crkbd), [Lily58](https://github.com/kata0510/Lily58), [Ergo42](https://github.com/Biacco42/Ergo42) and [Helix](https://github.com/MakotoKurauchi/helix).  
 
 ## TODO: product image
@@ -22,13 +22,13 @@ An idea is inspired from [crkbd](https://github.com/foostan/crkbd), [Lily58](htt
 | 4 | Pro Micro | 1 |
 | 5 | Conthrough for Pro Micro | 2 |
 | 6 | 2 pins tact switch | 1 |
-| 7 | diodes (1N4148 or 1N4148W) | 10 |
-| 8 | Kailh PCB Sockets (for MX) | 8 |
-| 9 | Kailh PCB Sockets (for Choc) | 2 |
-| 10 | Cherry MX compatible keyswitches | 8 |
-| 11 | Kailh Choc keyswitches | 2 |
-| 12 | Cherry MX compatible keycaps | 8 |
-| 13 | Kailh Choc compatible keycaps | 2 |
+| 7 | diodes (1N4148 or 1N4148W) | 13 |
+| 8 | Kailh PCB Sockets (for MX) | 10 |
+| 9 | Kailh PCB Sockets (for Choc) | 3 |
+| 10 | Cherry MX compatible keyswitches | 10 |
+| 11 | Kailh Choc keyswitches | 3 |
+| 12 | Cherry MX compatible keycaps | 10 |
+| 13 | Kailh Choc compatible keycaps | 3 |
 | 14 | 7mm M2 standoffs (for top and bottom plate) | 3 |
 | 15 | 5mm M2 standoffs (for Pro Micro cover plate) | 2 |
 | 16 | 4mm M2 screws | 5 |
