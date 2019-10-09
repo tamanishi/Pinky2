@@ -1,4 +1,4 @@
-update=Sunday, 29 September 2019 at 19:06:28
+update=Sunday, 06 October 2019 at 17:21:14
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=PinkyPad.net
+LastNetListRead=Pinky2.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0

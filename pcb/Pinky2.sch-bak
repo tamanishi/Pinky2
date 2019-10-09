@@ -5,8 +5,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "PinkyPad"
-Date "2019-09-29"
+Title "Pinky2"
+Date "2019-10-06"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -209,10 +209,10 @@ F 3 "" H 6730 4910 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky2-rescue:SW_PUSH-kbd-Pinky3-rescue SW9
+L Pinky2-rescue:SW_PUSH-kbd-Pinky3-rescue SW8
 U 1 1 5BDC09AE
 P 8460 4230
-F 0 "SW9" H 8460 4485 50  0000 C CNN
+F 0 "SW8" H 8460 4485 50  0000 C CNN
 F 1 "SW_PUSH" H 8460 4394 50  0000 C CNN
 F 2 "kbd:CherryMX_Hotswap" H 8460 4230 50  0001 C CNN
 F 3 "" H 8460 4230 50  0000 C CNN
@@ -220,10 +220,10 @@ F 3 "" H 8460 4230 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky2-rescue:SW_PUSH-kbd-Pinky3-rescue SW10
+L Pinky2-rescue:SW_PUSH-kbd-Pinky3-rescue SW9
 U 1 1 5BDC0E41
 P 8460 4910
-F 0 "SW10" H 8460 5165 50  0000 C CNN
+F 0 "SW9" H 8460 5165 50  0000 C CNN
 F 1 "SW_PUSH" H 8460 5074 50  0000 C CNN
 F 2 "kbd:CherryMX_Hotswap" H 8460 4910 50  0001 C CNN
 F 3 "" H 8460 4910 50  0000 C CNN
@@ -231,22 +231,20 @@ F 3 "" H 8460 4910 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky2-rescue:SW_PUSH-kbd-Pinky3-rescue SW11
+L Pinky2-rescue:SW_PUSH-kbd-Pinky3-rescue SW13
 U 1 1 5BDC1338
-P 8460 5570
-F 0 "SW11" H 8460 5825 50  0000 C CNN
-F 1 "SW_PUSH" H 8460 5734 50  0000 C CNN
-F 2 "lib:Choc_Hotswap" H 8460 5570 50  0001 C CNN
-F 3 "" H 8460 5570 50  0000 C CNN
-	1    8460 5570
+P 9295 5570
+F 0 "SW13" H 9295 5825 50  0000 C CNN
+F 1 "SW_PUSH" H 9295 5734 50  0000 C CNN
+F 2 "lib:Choc_Hotswap" H 9295 5570 50  0001 C CNN
+F 3 "" H 9295 5570 50  0000 C CNN
+	1    9295 5570
 	1    0    0    -1  
 $EndComp
 Text GLabel 4320 4530 0    50   Input ~ 0
 row0
 Text GLabel 4330 5210 0    50   Input ~ 0
 row1
-Text GLabel 4335 5870 0    50   Input ~ 0
-row2
 $Comp
 L Device:D D3
 U 1 1 5BDFAE87
@@ -270,10 +268,10 @@ F 3 "~" H 7905 4380 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D8
+L Device:D D7
 U 1 1 5BDFBBBC
 P 8760 4380
-F 0 "D8" V 8806 4301 50  0000 R CNN
+F 0 "D7" V 8806 4301 50  0000 R CNN
 F 1 "D" V 8715 4301 50  0000 R CNN
 F 2 "kbd:D3_TH_SMD" H 8760 4380 50  0001 C CNN
 F 3 "~" H 8760 4380 50  0001 C CNN
@@ -281,10 +279,10 @@ F 3 "~" H 8760 4380 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D9
+L Device:D D8
 U 1 1 5BDFDE92
 P 8760 5060
-F 0 "D9" V 8806 4981 50  0000 R CNN
+F 0 "D8" V 8806 4981 50  0000 R CNN
 F 1 "D" V 8715 4981 50  0000 R CNN
 F 2 "kbd:D3_TH_SMD" H 8760 5060 50  0001 C CNN
 F 3 "~" H 8760 5060 50  0001 C CNN
@@ -292,14 +290,14 @@ F 3 "~" H 8760 5060 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D10
+L Device:D D12
 U 1 1 5BDFE4ED
-P 8760 5720
-F 0 "D10" V 8806 5641 50  0000 R CNN
-F 1 "D" V 8715 5641 50  0000 R CNN
-F 2 "kbd:D3_TH_SMD" H 8760 5720 50  0001 C CNN
-F 3 "~" H 8760 5720 50  0001 C CNN
-	1    8760 5720
+P 9595 5720
+F 0 "D12" V 9641 5641 50  0000 R CNN
+F 1 "D" V 9550 5641 50  0000 R CNN
+F 2 "kbd:D3_TH_SMD" H 9595 5720 50  0001 C CNN
+F 3 "~" H 9595 5720 50  0001 C CNN
+	1    9595 5720
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -366,15 +364,9 @@ Wire Wire Line
 Wire Wire Line
 	7305 4230 7305 4910
 Wire Wire Line
-	7905 5210 8760 5210
-Connection ~ 7905 5210
-Wire Wire Line
 	8160 4230 8160 4910
 Wire Wire Line
 	7905 4530 8760 4530
-Connection ~ 8160 4910
-Wire Wire Line
-	8160 4910 8160 5570
 Connection ~ 7030 5210
 Connection ~ 7030 4530
 Wire Wire Line
@@ -401,8 +393,6 @@ Wire Wire Line
 Wire Wire Line
 	8160 3635 8160 4230
 Wire Wire Line
-	4335 5870 7905 5870
-Wire Wire Line
 	4320 4530 6140 4530
 Wire Wire Line
 	4330 5210 6140 5210
@@ -411,21 +401,9 @@ Text GLabel 1205 2045 0    50   Input ~ 0
 row0
 Text GLabel 2605 1945 2    50   Input ~ 0
 col1
-NoConn ~ 2605 2245
 NoConn ~ 2605 2345
 NoConn ~ 2605 2445
 NoConn ~ 1205 2545
-$Comp
-L Device:D D7
-U 1 1 5D97877F
-P 7905 5720
-F 0 "D7" V 7951 5641 50  0000 R CNN
-F 1 "D" V 7860 5641 50  0000 R CNN
-F 2 "kbd:D3_TH_SMD" H 7905 5720 50  0001 C CNN
-F 3 "~" H 7905 5720 50  0001 C CNN
-	1    7905 5720
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Pinky2-rescue:SW_PUSH-kbd-Pinky3-rescue SW7
 U 1 1 5BDBECBA
@@ -438,15 +416,127 @@ F 3 "" H 7605 4910 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky2-rescue:SW_PUSH-kbd-Pinky3-rescue SW8
+L Pinky2-rescue:SW_PUSH-kbd-Pinky3-rescue SW10
 U 1 1 5D97788B
+P 8460 5570
+F 0 "SW10" H 8460 5825 50  0000 C CNN
+F 1 "SW_PUSH" H 8460 5734 50  0000 C CNN
+F 2 "lib:Choc_Hotswap" H 8460 5570 50  0001 C CNN
+F 3 "" H 8460 5570 50  0000 C CNN
+	1    8460 5570
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8160 4910 8160 5570
+NoConn ~ 1205 1845
+NoConn ~ 1205 1945
+NoConn ~ 1205 2345
+NoConn ~ 1205 2445
+$Comp
+L Pinky2-rescue:SW_PUSH-kbd-Pinky3-rescue SW12
+U 1 1 5D9CD1F4
+P 9295 4910
+F 0 "SW12" H 9295 5165 50  0000 C CNN
+F 1 "SW_PUSH" H 9295 5074 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 9295 4910 50  0001 C CNN
+F 3 "" H 9295 4910 50  0000 C CNN
+	1    9295 4910
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 5D9CD1FA
+P 9595 4380
+F 0 "D10" V 9641 4301 50  0000 R CNN
+F 1 "D" V 9550 4301 50  0000 R CNN
+F 2 "kbd:D3_TH_SMD" H 9595 4380 50  0001 C CNN
+F 3 "~" H 9595 4380 50  0001 C CNN
+	1    9595 4380
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8160 4910
+Text GLabel 8995 3655 1    50   Input ~ 0
+col4
+$Comp
+L Device:D D11
+U 1 1 5D9CD200
+P 9595 5060
+F 0 "D11" V 9641 4981 50  0000 R CNN
+F 1 "D" V 9550 4981 50  0000 R CNN
+F 2 "kbd:D3_TH_SMD" H 9595 5060 50  0001 C CNN
+F 3 "~" H 9595 5060 50  0001 C CNN
+	1    9595 5060
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7905 5210
+Wire Wire Line
+	7905 5210 8760 5210
+Wire Wire Line
+	8760 5210 9595 5210
+Connection ~ 8760 5210
+Wire Wire Line
+	8760 4530 9595 4530
+Connection ~ 8760 4530
+Wire Wire Line
+	8995 3655 8995 4230
+Wire Wire Line
+	8995 4230 8995 4910
+Connection ~ 8995 4230
+Wire Wire Line
+	8995 4910 8995 5570
+Connection ~ 8995 4910
+$Comp
+L Pinky2-rescue:SW_PUSH-kbd-Pinky3-rescue SW11
+U 1 1 5D9CD1EE
+P 9295 4230
+F 0 "SW11" H 9295 4485 50  0000 C CNN
+F 1 "SW_PUSH" H 9295 4394 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 9295 4230 50  0001 C CNN
+F 3 "" H 9295 4230 50  0000 C CNN
+	1    9295 4230
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4335 5870 0    50   Input ~ 0
+row2
+Text GLabel 2605 2245 2    50   Input ~ 0
+col4
+Wire Wire Line
+	8760 5870 9595 5870
+$Comp
+L Device:D D9
+U 1 1 5DA03BD1
+P 8760 5720
+F 0 "D9" V 8806 5641 50  0000 R CNN
+F 1 "D" V 8715 5641 50  0000 R CNN
+F 2 "kbd:D3_TH_SMD" H 8760 5720 50  0001 C CNN
+F 3 "~" H 8760 5720 50  0001 C CNN
+	1    8760 5720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4335 5870 7905 5870
+Connection ~ 8760 5870
+$Comp
+L Pinky2-rescue:SW_PUSH-kbd-Pinky3-rescue SW?
+U 1 1 5DA07CE1
 P 7605 5570
-F 0 "SW8" H 7605 5825 50  0000 C CNN
+F 0 "SW?" H 7605 5825 50  0000 C CNN
 F 1 "SW_PUSH" H 7605 5734 50  0000 C CNN
 F 2 "lib:Choc_Hotswap" H 7605 5570 50  0001 C CNN
 F 3 "" H 7605 5570 50  0000 C CNN
 	1    7605 5570
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5DA07CE7
+P 7905 5720
+F 0 "D?" V 7951 5641 50  0000 R CNN
+F 1 "D" V 7860 5641 50  0000 R CNN
+F 2 "kbd:D3_TH_SMD" H 7905 5720 50  0001 C CNN
+F 3 "~" H 7905 5720 50  0001 C CNN
+	1    7905 5720
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	7305 4910 7305 5570
@@ -454,8 +544,4 @@ Connection ~ 7305 4910
 Connection ~ 7905 5870
 Wire Wire Line
 	7905 5870 8760 5870
-NoConn ~ 1205 1845
-NoConn ~ 1205 1945
-NoConn ~ 1205 2345
-NoConn ~ 1205 2445
 $EndSCHEMATC
