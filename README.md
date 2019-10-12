@@ -10,7 +10,6 @@ An idea is inspired from [crkbd](https://github.com/foostan/crkbd), [Lily58](htt
 
 ![pcb](pcb/Pinky2-pcb.png)
 
-## TODO: tweak top plate
 ![top plate](top-plate&cover-plate/Pinky2-top-plate.png)
 ![bottom plate](bottom-plate/Pinky2-bottom-plate.png)
 
