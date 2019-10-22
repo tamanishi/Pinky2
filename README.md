@@ -3,8 +3,7 @@
 A 2 x 5 vertical ortholinear and 3 thumb keys reversible macro pad for one hand.  
 An idea is inspired from [crkbd](https://github.com/foostan/crkbd), [Lily58](https://github.com/kata0510/Lily58), [Ergo42](https://github.com/Biacco42/Ergo42) and [Helix](https://github.com/MakotoKurauchi/helix).  
 
-## TODO: product image
-<!-- ![product](product.jpg) -->
+![product](product.jpg)
 
 ## Pcb & Plates
 
