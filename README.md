@@ -4,6 +4,7 @@ A 2 x 5 vertically staggered keys and 3 thumb keys reversible macropad for one h
 An idea is inspired from [crkbd](https://github.com/foostan/crkbd), [Lily58](https://github.com/kata0510/Lily58), [Ergo42](https://github.com/Biacco42/Ergo42) and [Helix](https://github.com/MakotoKurauchi/helix).  
 
 ![product](product.jpg)
+![grabbag](grabbag.jpg)
 
 ## Pcb & Plates
 
